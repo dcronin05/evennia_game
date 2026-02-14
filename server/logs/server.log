@@ -1,0 +1,475 @@
+2026-02-14 05:26:29 [..] Loaded.
+2026-02-14 05:26:28 [..] Loading /usr/src/evennia/evennia/server/server.py...
+2026-02-14 05:26:29 [..] Loaded.
+2026-02-14 05:26:29 [..] twistd 24.11.0 (/usr/local/bin/python3.11 3.11.13) starting up.
+2026-02-14 05:26:29 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-02-14 05:26:29 [..] Webserver starting on 4005
+2026-02-14 05:26:29 [..] Initial setup: Creating objects (Account #1 and Limbo room) ...
+2026-02-14 05:26:30 [SS] Character Created: dcronin05 (Caller: dcronin05(account 1), IP: None).
+2026-02-14 05:26:30 [..] Initial setup: Running at_initial_setup() hook.
+2026-02-14 05:26:30 [..] Initial setup: Gathering static resources using 'collectstatic'
+None2026-02-14 05:26:31 [..] 0 static files copied to '/usr/src/game/mygame/server/.static', 208 unmodified.
+2026-02-14 05:26:31 [..] Initial setup complete. Restarting Server once.
+2026-02-14 05:26:31 [..] Evennia Server successfully started.
+2026-02-14 05:26:32 [..] Server disconnected from the portal.
+2026-02-14 05:26:32 [..] Main loop terminated.
+2026-02-14 05:26:32 [..] Server Shut Down.
+2026-02-14 05:26:33 [..] Loaded.
+2026-02-14 05:26:32 [..] Loading /usr/src/evennia/evennia/server/server.py...
+2026-02-14 05:26:33 [..] Loaded.
+2026-02-14 05:26:33 [..] twistd 24.11.0 (/usr/local/bin/python3.11 3.11.13) starting up.
+2026-02-14 05:26:33 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-02-14 05:26:33 [..] Webserver starting on 4005
+2026-02-14 05:26:33 [..] Evennia Server successfully restarted in 'reset' mode.
+2026-02-14 05:26:59 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-02-14 05:27:04 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-02-14 05:27:14 [SS] Authentication Success: dcronin05(account 1) (IP: 192.168.0.1).
+2026-02-14 05:27:14 [..] Logged in: dcronin05(account 1) 192.168.0.1 (1 session(s) total)
+2026-02-14 05:30:19 [..] Loaded.
+2026-02-14 05:30:17 [..] Loading /usr/src/evennia/evennia/server/server.py...
+2026-02-14 05:30:19 [..] Loaded.
+2026-02-14 05:30:19 [..] twistd 24.11.0 (/usr/local/bin/python3.11 3.11.13) starting up.
+2026-02-14 05:30:19 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-02-14 05:30:19 [..] Webserver starting on 4005
+2026-02-14 05:30:19 [..] Evennia Server successfully started.
+2026-02-14 05:30:24 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-02-14 05:30:25 [..] Logged in: dcronin05(account 1) 192.168.16.1 (1 session(s) total)
+2026-02-14 05:40:59 [SS] Authentication Success: dcronin05(account 1) (IP: 192.168.16.1).
+2026-02-14 05:40:59 [..] Logged out: dcronin05(account 1) 192.168.16.1 (1 sessions(s) remaining) (Logged in from elsewhere. Disconnecting.)
+2026-02-14 05:40:59 [..] Logged in: dcronin05(account 1) 192.168.16.1 (1 session(s) total)
+2026-02-14 05:44:44 [..] Logged out: dcronin05(account 1) 192.168.16.1 (0 sessions(s) remaining) (quit)
+2026-02-14 05:46:07 [..] Loaded.
+2026-02-14 05:46:05 [..] Loading /usr/src/evennia/evennia/server/server.py...
+2026-02-14 05:46:07 [..] Loaded.
+2026-02-14 05:46:07 [..] twistd 24.11.0 (/usr/local/bin/python3.11 3.11.13) starting up.
+2026-02-14 05:46:07 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-02-14 05:46:07 [..] Webserver starting on 4005
+2026-02-14 05:46:07 [..] Evennia Server successfully started.
+2026-02-14 05:46:19 [SS] Authentication Success: dcronin05(account 1) (IP: 192.168.16.1).
+2026-02-14 05:46:19 [..] Logged in: dcronin05(account 1) 192.168.16.1 (1 session(s) total)
+2026-02-14 05:50:35 [SS] Authentication Success: dcronin05(account 1) (IP: 192.168.16.1).
+2026-02-14 05:50:35 [..] Logged out: dcronin05(account 1) 192.168.16.1 (1 sessions(s) remaining) (Logged in from elsewhere. Disconnecting.)
+2026-02-14 05:50:35 [..] Logged in: dcronin05(account 1) 192.168.16.1 (1 session(s) total)
+2026-02-14 05:56:14 [SS] Authentication Success: dcronin05(account 1) (IP: 192.168.16.1).
+2026-02-14 05:56:14 [..] Logged out: dcronin05(account 1) 192.168.16.1 (1 sessions(s) remaining) (Logged in from elsewhere. Disconnecting.)
+2026-02-14 05:56:14 [..] Logged in: dcronin05(account 1) 192.168.16.1 (1 session(s) total)
+2026-02-14 06:07:25 [SS] Puppet Success: (Caller: dcronin05(account 1), Target: dcronin05, IP: 192.168.16.1).
+2026-02-14 06:13:02 [EE] Overwriting existing registered function stopWordFilter
+2026-02-14 18:32:24 [..] Server disconnected from the portal.
+2026-02-14 18:32:24 [..] Main loop terminated.
+2026-02-14 18:32:24 [..] Server Shut Down.
+2026-02-14 18:32:25 [..] Loaded.
+2026-02-14 18:32:24 [..] Loading /usr/src/evennia/evennia/server/server.py...
+2026-02-14 18:32:25 [..] Loaded.
+2026-02-14 18:32:25 [..] twistd 24.11.0 (/usr/local/bin/python3.11 3.11.13) starting up.
+2026-02-14 18:32:25 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-02-14 18:32:25 [..] Webserver starting on 4005
+2026-02-14 18:32:25 [..] Server successfully reloaded.
+2026-02-14 19:31:52 [!!] Traceback (most recent call last):
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:31:52 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:31:52 [!!]     return super().execute(query, params)
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!] sqlite3.OperationalError: disk I/O error
+None2026-02-14 19:31:52 [!!] The above exception was the direct cause of the following exception:
+None2026-02-14 19:31:52 [!!] Traceback (most recent call last):
+2026-02-14 19:31:52 [!!]   File "/usr/src/evennia/evennia/utils/idmapper/models.py", line 452, in save
+2026-02-14 19:31:52 [!!]     super().save(*args, **kwargs)
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+2026-02-14 19:31:52 [!!]     self.save_base(
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+2026-02-14 19:31:52 [!!]     updated = self._save_table(
+2026-02-14 19:31:52 [!!]               ^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1138, in _save_table
+2026-02-14 19:31:52 [!!]     updated = self._do_update(
+2026-02-14 19:31:52 [!!]               ^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1203, in _do_update
+2026-02-14 19:31:52 [!!]     return filtered._update(values) > 0
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1286, in _update
+2026-02-14 19:31:52 [!!]     return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2060, in execute_sql
+2026-02-14 19:31:52 [!!]     row_count = super().execute_sql(result_type)
+2026-02-14 19:31:52 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+2026-02-14 19:31:52 [!!]     cursor.execute(sql, params)
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+2026-02-14 19:31:52 [!!]     return self._execute_with_wrappers(
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+2026-02-14 19:31:52 [!!]     return executor(sql, params, many, context)
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+2026-02-14 19:31:52 [!!]     with self.db.wrap_database_errors:
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+2026-02-14 19:31:52 [!!]     raise dj_exc_value.with_traceback(traceback) from exc_value
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:31:52 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:31:52 [!!]     return super().execute(query, params)
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!] django.db.utils.OperationalError: disk I/O error
+None2026-02-14 19:31:52 [!!] During handling of the above exception, another exception occurred:
+None2026-02-14 19:31:52 [!!] Traceback (most recent call last):
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:31:52 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:31:52 [!!]     return super().execute(query, params)
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!] sqlite3.OperationalError: disk I/O error
+None2026-02-14 19:31:52 [!!] The above exception was the direct cause of the following exception:
+None2026-02-14 19:31:52 [!!] Traceback (most recent call last):
+2026-02-14 19:31:52 [!!]   File "/usr/src/evennia/evennia/objects/objects.py", line 1304, in move_to
+2026-02-14 19:31:52 [!!]     self.location = destination
+2026-02-14 19:31:52 [!!]     ^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/src/evennia/evennia/objects/models.py", line 346, in __location_set
+2026-02-14 19:31:52 [!!]     self.save(update_fields=["db_location"])
+2026-02-14 19:31:52 [!!]   File "/usr/src/evennia/evennia/utils/idmapper/models.py", line 459, in save
+2026-02-14 19:31:52 [!!]     super().save(*args, **kwargs)
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+2026-02-14 19:31:52 [!!]     self.save_base(
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+2026-02-14 19:31:52 [!!]     updated = self._save_table(
+2026-02-14 19:31:52 [!!]               ^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1138, in _save_table
+2026-02-14 19:31:52 [!!]     updated = self._do_update(
+2026-02-14 19:31:52 [!!]               ^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1203, in _do_update
+2026-02-14 19:31:52 [!!]     return filtered._update(values) > 0
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1286, in _update
+2026-02-14 19:31:52 [!!]     return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2060, in execute_sql
+2026-02-14 19:31:52 [!!]     row_count = super().execute_sql(result_type)
+2026-02-14 19:31:52 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+2026-02-14 19:31:52 [!!]     cursor.execute(sql, params)
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+2026-02-14 19:31:52 [!!]     return self._execute_with_wrappers(
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+2026-02-14 19:31:52 [!!]     return executor(sql, params, many, context)
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+2026-02-14 19:31:52 [!!]     with self.db.wrap_database_errors:
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+2026-02-14 19:31:52 [!!]     raise dj_exc_value.with_traceback(traceback) from exc_value
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:31:52 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:31:52 [!!]     return super().execute(query, params)
+2026-02-14 19:31:52 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:52 [!!] django.db.utils.OperationalError: disk I/O error
+2026-02-14 19:31:58 [!!] Traceback (most recent call last):
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:31:58 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:31:58 [!!]     return super().execute(query, params)
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!] sqlite3.OperationalError: disk I/O error
+None2026-02-14 19:31:58 [!!] The above exception was the direct cause of the following exception:
+None2026-02-14 19:31:58 [!!] Traceback (most recent call last):
+2026-02-14 19:31:58 [!!]   File "/usr/src/evennia/evennia/utils/idmapper/models.py", line 452, in save
+2026-02-14 19:31:58 [!!]     super().save(*args, **kwargs)
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+2026-02-14 19:31:58 [!!]     self.save_base(
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+2026-02-14 19:31:58 [!!]     updated = self._save_table(
+2026-02-14 19:31:58 [!!]               ^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1138, in _save_table
+2026-02-14 19:31:58 [!!]     updated = self._do_update(
+2026-02-14 19:31:58 [!!]               ^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1203, in _do_update
+2026-02-14 19:31:58 [!!]     return filtered._update(values) > 0
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1286, in _update
+2026-02-14 19:31:58 [!!]     return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2060, in execute_sql
+2026-02-14 19:31:58 [!!]     row_count = super().execute_sql(result_type)
+2026-02-14 19:31:58 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+2026-02-14 19:31:58 [!!]     cursor.execute(sql, params)
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+2026-02-14 19:31:58 [!!]     return self._execute_with_wrappers(
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+2026-02-14 19:31:58 [!!]     return executor(sql, params, many, context)
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+2026-02-14 19:31:58 [!!]     with self.db.wrap_database_errors:
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+2026-02-14 19:31:58 [!!]     raise dj_exc_value.with_traceback(traceback) from exc_value
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:31:58 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:31:58 [!!]     return super().execute(query, params)
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!] django.db.utils.OperationalError: disk I/O error
+None2026-02-14 19:31:58 [!!] During handling of the above exception, another exception occurred:
+None2026-02-14 19:31:58 [!!] Traceback (most recent call last):
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:31:58 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:31:58 [!!]     return super().execute(query, params)
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!] sqlite3.OperationalError: disk I/O error
+None2026-02-14 19:31:58 [!!] The above exception was the direct cause of the following exception:
+None2026-02-14 19:31:58 [!!] Traceback (most recent call last):
+2026-02-14 19:31:58 [!!]   File "/usr/src/evennia/evennia/objects/objects.py", line 1304, in move_to
+2026-02-14 19:31:58 [!!]     self.location = destination
+2026-02-14 19:31:58 [!!]     ^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/src/evennia/evennia/objects/models.py", line 346, in __location_set
+2026-02-14 19:31:58 [!!]     self.save(update_fields=["db_location"])
+2026-02-14 19:31:58 [!!]   File "/usr/src/evennia/evennia/utils/idmapper/models.py", line 459, in save
+2026-02-14 19:31:58 [!!]     super().save(*args, **kwargs)
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+2026-02-14 19:31:58 [!!]     self.save_base(
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+2026-02-14 19:31:58 [!!]     updated = self._save_table(
+2026-02-14 19:31:58 [!!]               ^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1138, in _save_table
+2026-02-14 19:31:58 [!!]     updated = self._do_update(
+2026-02-14 19:31:58 [!!]               ^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1203, in _do_update
+2026-02-14 19:31:58 [!!]     return filtered._update(values) > 0
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1286, in _update
+2026-02-14 19:31:58 [!!]     return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2060, in execute_sql
+2026-02-14 19:31:58 [!!]     row_count = super().execute_sql(result_type)
+2026-02-14 19:31:58 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+2026-02-14 19:31:58 [!!]     cursor.execute(sql, params)
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+2026-02-14 19:31:58 [!!]     return self._execute_with_wrappers(
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+2026-02-14 19:31:58 [!!]     return executor(sql, params, many, context)
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+2026-02-14 19:31:58 [!!]     with self.db.wrap_database_errors:
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+2026-02-14 19:31:58 [!!]     raise dj_exc_value.with_traceback(traceback) from exc_value
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:31:58 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:31:58 [!!]     return super().execute(query, params)
+2026-02-14 19:31:58 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:31:58 [!!] django.db.utils.OperationalError: disk I/O error
+2026-02-14 19:32:04 [!!] Traceback (most recent call last):
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:32:04 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:32:04 [!!]     return super().execute(query, params)
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!] sqlite3.OperationalError: disk I/O error
+None2026-02-14 19:32:04 [!!] The above exception was the direct cause of the following exception:
+None2026-02-14 19:32:04 [!!] Traceback (most recent call last):
+2026-02-14 19:32:04 [!!]   File "/usr/src/evennia/evennia/utils/idmapper/models.py", line 452, in save
+2026-02-14 19:32:04 [!!]     super().save(*args, **kwargs)
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+2026-02-14 19:32:04 [!!]     self.save_base(
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+2026-02-14 19:32:04 [!!]     updated = self._save_table(
+2026-02-14 19:32:04 [!!]               ^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1138, in _save_table
+2026-02-14 19:32:04 [!!]     updated = self._do_update(
+2026-02-14 19:32:04 [!!]               ^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1203, in _do_update
+2026-02-14 19:32:04 [!!]     return filtered._update(values) > 0
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1286, in _update
+2026-02-14 19:32:04 [!!]     return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2060, in execute_sql
+2026-02-14 19:32:04 [!!]     row_count = super().execute_sql(result_type)
+2026-02-14 19:32:04 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+2026-02-14 19:32:04 [!!]     cursor.execute(sql, params)
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+2026-02-14 19:32:04 [!!]     return self._execute_with_wrappers(
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+2026-02-14 19:32:04 [!!]     return executor(sql, params, many, context)
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+2026-02-14 19:32:04 [!!]     with self.db.wrap_database_errors:
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+2026-02-14 19:32:04 [!!]     raise dj_exc_value.with_traceback(traceback) from exc_value
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:32:04 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:32:04 [!!]     return super().execute(query, params)
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!] django.db.utils.OperationalError: disk I/O error
+None2026-02-14 19:32:04 [!!] During handling of the above exception, another exception occurred:
+None2026-02-14 19:32:04 [!!] Traceback (most recent call last):
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:32:04 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:32:04 [!!]     return super().execute(query, params)
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!] sqlite3.OperationalError: disk I/O error
+None2026-02-14 19:32:04 [!!] The above exception was the direct cause of the following exception:
+None2026-02-14 19:32:04 [!!] Traceback (most recent call last):
+2026-02-14 19:32:04 [!!]   File "/usr/src/evennia/evennia/objects/objects.py", line 1304, in move_to
+2026-02-14 19:32:04 [!!]     self.location = destination
+2026-02-14 19:32:04 [!!]     ^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/src/evennia/evennia/objects/models.py", line 346, in __location_set
+2026-02-14 19:32:04 [!!]     self.save(update_fields=["db_location"])
+2026-02-14 19:32:04 [!!]   File "/usr/src/evennia/evennia/utils/idmapper/models.py", line 459, in save
+2026-02-14 19:32:04 [!!]     super().save(*args, **kwargs)
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+2026-02-14 19:32:04 [!!]     self.save_base(
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+2026-02-14 19:32:04 [!!]     updated = self._save_table(
+2026-02-14 19:32:04 [!!]               ^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1138, in _save_table
+2026-02-14 19:32:04 [!!]     updated = self._do_update(
+2026-02-14 19:32:04 [!!]               ^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1203, in _do_update
+2026-02-14 19:32:04 [!!]     return filtered._update(values) > 0
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1286, in _update
+2026-02-14 19:32:04 [!!]     return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2060, in execute_sql
+2026-02-14 19:32:04 [!!]     row_count = super().execute_sql(result_type)
+2026-02-14 19:32:04 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+2026-02-14 19:32:04 [!!]     cursor.execute(sql, params)
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+2026-02-14 19:32:04 [!!]     return self._execute_with_wrappers(
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+2026-02-14 19:32:04 [!!]     return executor(sql, params, many, context)
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+2026-02-14 19:32:04 [!!]     with self.db.wrap_database_errors:
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+2026-02-14 19:32:04 [!!]     raise dj_exc_value.with_traceback(traceback) from exc_value
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:32:04 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:32:04 [!!]     return super().execute(query, params)
+2026-02-14 19:32:04 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:04 [!!] django.db.utils.OperationalError: disk I/O error
+2026-02-14 19:32:10 [!!] Traceback (most recent call last):
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:32:10 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:32:10 [!!]     return super().execute(query, params)
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!] sqlite3.OperationalError: disk I/O error
+None2026-02-14 19:32:10 [!!] The above exception was the direct cause of the following exception:
+None2026-02-14 19:32:10 [!!] Traceback (most recent call last):
+2026-02-14 19:32:10 [!!]   File "/usr/src/evennia/evennia/utils/idmapper/models.py", line 452, in save
+2026-02-14 19:32:10 [!!]     super().save(*args, **kwargs)
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+2026-02-14 19:32:10 [!!]     self.save_base(
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+2026-02-14 19:32:10 [!!]     updated = self._save_table(
+2026-02-14 19:32:10 [!!]               ^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1138, in _save_table
+2026-02-14 19:32:10 [!!]     updated = self._do_update(
+2026-02-14 19:32:10 [!!]               ^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1203, in _do_update
+2026-02-14 19:32:10 [!!]     return filtered._update(values) > 0
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1286, in _update
+2026-02-14 19:32:10 [!!]     return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2060, in execute_sql
+2026-02-14 19:32:10 [!!]     row_count = super().execute_sql(result_type)
+2026-02-14 19:32:10 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+2026-02-14 19:32:10 [!!]     cursor.execute(sql, params)
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+2026-02-14 19:32:10 [!!]     return self._execute_with_wrappers(
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+2026-02-14 19:32:10 [!!]     return executor(sql, params, many, context)
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+2026-02-14 19:32:10 [!!]     with self.db.wrap_database_errors:
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+2026-02-14 19:32:10 [!!]     raise dj_exc_value.with_traceback(traceback) from exc_value
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:32:10 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:32:10 [!!]     return super().execute(query, params)
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!] django.db.utils.OperationalError: disk I/O error
+None2026-02-14 19:32:10 [!!] During handling of the above exception, another exception occurred:
+None2026-02-14 19:32:10 [!!] Traceback (most recent call last):
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:32:10 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:32:10 [!!]     return super().execute(query, params)
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!] sqlite3.OperationalError: disk I/O error
+None2026-02-14 19:32:10 [!!] The above exception was the direct cause of the following exception:
+None2026-02-14 19:32:10 [!!] Traceback (most recent call last):
+2026-02-14 19:32:10 [!!]   File "/usr/src/evennia/evennia/objects/objects.py", line 1304, in move_to
+2026-02-14 19:32:10 [!!]     self.location = destination
+2026-02-14 19:32:10 [!!]     ^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/src/evennia/evennia/objects/models.py", line 346, in __location_set
+2026-02-14 19:32:10 [!!]     self.save(update_fields=["db_location"])
+2026-02-14 19:32:10 [!!]   File "/usr/src/evennia/evennia/utils/idmapper/models.py", line 459, in save
+2026-02-14 19:32:10 [!!]     super().save(*args, **kwargs)
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+2026-02-14 19:32:10 [!!]     self.save_base(
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+2026-02-14 19:32:10 [!!]     updated = self._save_table(
+2026-02-14 19:32:10 [!!]               ^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1138, in _save_table
+2026-02-14 19:32:10 [!!]     updated = self._do_update(
+2026-02-14 19:32:10 [!!]               ^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1203, in _do_update
+2026-02-14 19:32:10 [!!]     return filtered._update(values) > 0
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1286, in _update
+2026-02-14 19:32:10 [!!]     return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2060, in execute_sql
+2026-02-14 19:32:10 [!!]     row_count = super().execute_sql(result_type)
+2026-02-14 19:32:10 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+2026-02-14 19:32:10 [!!]     cursor.execute(sql, params)
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+2026-02-14 19:32:10 [!!]     return self._execute_with_wrappers(
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+2026-02-14 19:32:10 [!!]     return executor(sql, params, many, context)
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+2026-02-14 19:32:10 [!!]     with self.db.wrap_database_errors:
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+2026-02-14 19:32:10 [!!]     raise dj_exc_value.with_traceback(traceback) from exc_value
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+2026-02-14 19:32:10 [!!]     return self.cursor.execute(sql, params)
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!]   File "/usr/local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+2026-02-14 19:32:10 [!!]     return super().execute(query, params)
+2026-02-14 19:32:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-14 19:32:10 [!!] django.db.utils.OperationalError: disk I/O error
