@@ -27,7 +27,8 @@ class Read(Command):
                 output += '|n\n'
             else:
                 output += char
-        output += '\n\n|luhttps://google.com|ltgoogle.com|le'
+        output += '\n\nOmnious |luhttps://mycoolsounds.com/chanting|ltchanting sounds|le are coming from beyond the door.'
+
         return output
                 
                 
