@@ -51,7 +51,7 @@ class CmdHit(Command):
         else:
             weaponstr = "bare fists"
 
-        self.caller.msg(f"You hit {target} in the face with their {weaponstr}!")
+        self.caller.msg(f"You hit {target} in the face with your {weaponstr}!")
         target.msg(f"{self.caller} hits you in the face with their {weaponstr}!")
 
 
