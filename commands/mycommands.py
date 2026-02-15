@@ -43,6 +43,7 @@ class CmdHit(Command):
         if not target:
             return
 
+        weapon = None
         if self.weapon:
             weapon = self.caller.search(self.weapon)
         if weapon:
