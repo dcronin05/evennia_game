@@ -1,11 +1,27 @@
-from evennia.objects.objects import DefaultObject
 
-class Monster(DefaultObject):
-    key = "Monster"
-
-    def at_init(self, name):
-        print(f"{self.key} is initialized")
-        self.key = name
+class Monster:
+    """
+    This is a base class for Monsters.
+    """
+ 
+    def __init__(self, key):
+        self.key = key 
 
     def move_around(self):
-        print(f"{self.key} moves around")
+        print(f"{self.key} is moving!")
+
+
+class Dragon(Monster):
+    """
+    This is a dragon-specific monster.
+    """
+
+    def move_around(self):
+        super().move_around()
+        print("The world trembles.")
+
+    def firebreath(self):
+        """ 
+        Let our dragon breathe fire.
+        """
+        print(f"{self.key} breathes fire!")
