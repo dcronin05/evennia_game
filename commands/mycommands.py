@@ -4,9 +4,9 @@ from evennia import CmdSet
 
 class CmdEcho(Command):
     """
-    Echo the arguments back to the caller.
+    Echo the arguments back to the |Rcaller|n.
     """
-    
+
     key = 'echo'
 
     def func(self):
