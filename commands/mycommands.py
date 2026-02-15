@@ -3,10 +3,6 @@ from evennia import CmdSet
 from evennia import default_cmds
 
 
-
-
-
-
 class Read(Command):
     """
     Read a document.
@@ -19,6 +15,7 @@ class Read(Command):
 
     def parse_md(self, string):
         lines = string.split("\n")
+        print(lines)
         index = 0
         for line in lines:
             if line == "":
