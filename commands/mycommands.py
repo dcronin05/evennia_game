@@ -18,37 +18,12 @@ class Read(Command):
     key = 'read'
 
     def parse_md(self, string):
-        index = 0
-        prev_char = ''
-        curr_char = ''
-        next_char = ''
-        heading = False
-
-        output = ''
+        lines = string.split("\n")
+        for line in lines:
+            if line.startswith("# "):
+                line = f"|*|043{line[2:]}|n"
         
-        for char in string:
-            if index == 0:
-                prev_char = ''
-                curr_char = char
-            if index == len(string):
-                prev_char = curr_char
-                curr_char = char
-            else:
-                prev_char = curr_char
-                curr_char = char
-                next_char = string[index + 1]    
-
-            if curr_char == '#' and next_char == ' ':
-                heading = True
-                index += 1
-                curr_char = string[index]
-                output += "|*|043"
-            elif char == '\n':
-                output += '|n\n'
-            else:
-                output += curr_char
-            
-            index += 1
+        output = "\n".join(lines)
 
         return output
                 
