@@ -18,6 +18,7 @@ class Read(Command):
         self.caller.msg(lines)
         index = 0
         for line in lines:
+            self.caller.msg(f"index: {index}, line: {line}")
             if line == "":
                 del lines[index]
                 self.caller.msg('deleted a line')
