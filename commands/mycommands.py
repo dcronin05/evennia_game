@@ -30,7 +30,7 @@ class CmdHit(Command):
             target, *weapon = target.split(" ", 1)
         self.target = target.strip()
         if weapon:
-            self.weapon = weapon.strip()
+            self.weapon = weapon[0].strip()
         else:
             self.weapon = ""
 
