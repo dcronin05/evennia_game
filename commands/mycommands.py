@@ -3,6 +3,10 @@ from evennia import CmdSet
 from evennia import default_cmds
 
 
+
+
+
+
 class Read(Command):
     """
     Read a document.
@@ -13,6 +17,19 @@ class Read(Command):
 
     key = 'read'
 
+    def parse_md(self, string):
+        index = 0
+        output = ''
+        for char in string:
+            if char == '#':
+                output += "|G"
+            else:
+                output += char
+        return output
+                
+                
+
+
     def func(self):
         if not self.args:
             self.caller.msg("Read what?")
@@ -22,7 +39,7 @@ class Read(Command):
         if not document:
             return
 
-        self.caller.msg(document.db.content)
+        self.caller.msg(self.parse_md(document.db.content))
 
 class MyCmdGet(default_cmds.CmdGet):
     
