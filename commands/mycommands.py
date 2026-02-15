@@ -1,5 +1,14 @@
 from commands.command import Command
 from evennia import CmdSet
+from evennia import default_cmds
+
+
+class MyCmdGet(default_cmds.CmdGet):
+    
+    def func(self):
+        super().func()
+        self.caller.msg(str(self.caller.location.contents))
+
 
 
 class CmdEcho(Command):
@@ -60,3 +69,4 @@ class MyCmdSet(CmdSet):
     def at_cmdset_creation(self):
         self.add(CmdEcho())
         self.add(CmdHit())
+        self.add(MyCmdGet())
