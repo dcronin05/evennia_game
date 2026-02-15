@@ -1,4 +1,4 @@
-from evennia.objects.objects import Object
+from typeclasses.objects import Object
 
 class Document(Object):
     """
