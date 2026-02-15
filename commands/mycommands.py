@@ -19,7 +19,7 @@ class Read(Command):
 
     def parse_md(self, string):
         index = 0
-        output = ''
+        output = '|*'
         for char in string:
             if char == '#':
                 output += "|043"
