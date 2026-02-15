@@ -32,7 +32,7 @@ class Read(Command):
 
             index += 1
         
-        output = "\n".join(lines)
+        output = "\n" + "\n".join(lines)
 
         return output
 
