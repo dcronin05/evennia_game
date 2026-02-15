@@ -17,7 +17,7 @@ class Read(Command):
         lines = string.split("\n")
         self.caller.msg(lines)
         index = 0
-        for line in lines:
+        while index < len(lines):
             self.caller.msg(f"index: {index}, line: {line}")
             if line == "":
                 del lines[index]
