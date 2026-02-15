@@ -19,9 +19,11 @@ class Read(Command):
 
     def parse_md(self, string):
         lines = string.split("\n")
+        index = 0
         for line in lines:
             if line.startswith("# "):
-                line = f"|*|043{line[2:]}|n"
+                lines[index] = f"|*|043{line[2:]}|n"
+            index += 1
         
         output = "\n".join(lines)
 
