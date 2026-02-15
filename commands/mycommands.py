@@ -31,7 +31,7 @@ class Read(Command):
             elif line.startswith("## "):
                 lines[index] = f"|043{line[3:]}|n\n"
             elif line.startswith("### "):
-                lines[index] = f"|029{line[4:]}|n\n"
+                lines[index] = f"|C{line[4:]}|n\n"
 
             self.caller.msg(f"line: {lines[index]}")
             index += 1
