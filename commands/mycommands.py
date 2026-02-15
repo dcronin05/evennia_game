@@ -27,6 +27,7 @@ class Read(Command):
                 output += '|n\n'
             else:
                 output += char
+            output += '\n\n|luhttps://google.com|ltgoogle.com|le'
         return output
                 
                 
