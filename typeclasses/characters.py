@@ -24,3 +24,18 @@ class Character(ObjectParent, DefaultCharacter):
     """
 
     pass
+
+class God(Character):
+    """
+    God class
+    """
+
+    strength = 10
+    dexterity = 12
+    intelligence = 15
+    wisdom = 14
+    charisma = 13
+
+    def get_stats(self):
+        return self.strength, self.dexterity, self.intelligence, self.wisdom, self.charisma
+    
