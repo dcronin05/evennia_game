@@ -25,6 +25,7 @@ class Read(Command):
             if line.startswith("# "):
                 lines[index] = f"|*|043{line[2:]}|n\n"
             index += 1
+            self.caller.msg(lines[index])
         
         output = "\n".join(lines)
 
