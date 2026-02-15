@@ -22,7 +22,7 @@ class Read(Command):
         if not document:
             return
 
-        document.read()
+        self.caller.msg(document.db.content)
 
 class MyCmdGet(default_cmds.CmdGet):
     
