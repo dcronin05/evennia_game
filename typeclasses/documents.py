@@ -10,5 +10,5 @@ class Document(Object):
         self.db.content = ""
     
     def read(self):
-        self.caller.msg(self.db.content)
+        self.msg(self.db.content)
     
