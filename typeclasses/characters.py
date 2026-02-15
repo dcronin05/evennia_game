@@ -41,4 +41,3 @@ class God(Character):
 
     def at_object_creation(self):
         super().at_object_creation()
-        self.db.title = "God"    
