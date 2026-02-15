@@ -24,7 +24,7 @@ class Read(Command):
             if char == '#':
                 output += "|043"
             elif char == '\n':
-                output += '|n'
+                output += '|n\n'
             else:
                 output += char
         return output
