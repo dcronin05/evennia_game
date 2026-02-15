@@ -1,6 +1,6 @@
 import evennia
 
-new_doc = evennia.create_object("typeclasses.documents.Document", key="new doc")
+new_doc = evennia.create_object("typeclasses.documents.Document", key="new doc", home=self)
 
 new_doc.db.content = """
 # Discussion Assignment: Shortcuts
