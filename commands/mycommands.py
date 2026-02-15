@@ -22,7 +22,9 @@ class Read(Command):
         output = ''
         for char in string:
             if char == '#':
-                output += "|G"
+                output += "|043"
+            elif char == '\n':
+                output += '|n'
             else:
                 output += char
         return output
