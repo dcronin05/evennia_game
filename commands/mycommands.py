@@ -25,12 +25,14 @@ class Read(Command):
                 self.caller.msg('deleted a line')
                 self.caller.msg(lines)
                 continue
+
             if line.startswith("# "):
                 lines[index] = f"|*|043{line[2:]}|n\n"
             elif line.startswith("## "):
-                lines[index = f"|043{line[3:]}|n\n"]
+                lines[index] = f"|043{line[3:]}|n\n"
             elif line.startswith("### "):
-                lines[index = f"|094{line[4:]}|n\n"]
+                lines[index] = f"|094{line[4:]}|n\n"
+
             self.caller.msg(f"line: {lines[index]}")
             index += 1
         
