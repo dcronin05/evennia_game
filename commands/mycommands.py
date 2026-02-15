@@ -45,10 +45,10 @@ class CmdHit(Command):
 
         if self.weapon:
             weapon = self.caller.search(self.weapon)
-            if weapon:
-                weaponstr = f"{weapon.key}"
-            else:
-                weaponstr = "bare fists"
+        if weapon:
+            weaponstr = f"{weapon.key}"
+        else:
+            weaponstr = "bare fists"
 
         self.caller.msg(f"You hit {target} in the face with their {weaponstr}!")
         target.msg(f"{self.caller} hits you in the face with their {weaponstr}!")
