@@ -9,6 +9,6 @@ class Document(Object):
         super().at_object_creation()
         self.db.content = ""
     
-    def read(self, caller):
-        self.caller.msg(self.db.content)
+    def read(self):
+        self.msg(self.db.content)
     
