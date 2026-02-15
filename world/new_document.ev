@@ -1,7 +1,8 @@
 #
 @create document:typeclasses.documents.Document
 #
-@content =
+#
+ =
 
 Hello
 
