@@ -1,0 +1,14 @@
+from evennia.objects.objects import Object
+
+class Document(Object):
+    """
+    Document class
+    """
+    
+    def at_object_creation(self):
+        super().at_object_creation()
+        self.db.content = ""
+    
+    def read(self):
+        self.caller.msg(self.db.content)
+    
