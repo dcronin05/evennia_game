@@ -15,7 +15,7 @@ class Read(Command):
 
     def parse_md(self, string):
         lines = string.split("\n")
-        print(lines)
+        self.caller.msg(lines)
         index = 0
         for line in lines:
             if line == "":
