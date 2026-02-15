@@ -8,6 +8,8 @@ creation commands.
 
 """
 
+import random
+
 from evennia.objects.objects import DefaultCharacter
 
 from .objects import ObjectParent
@@ -25,9 +27,9 @@ class Character(ObjectParent, DefaultCharacter):
 
     def at_object_creation(self):
         super().at_object_creation()
-        self.db.strength = 10
-        self.db.dexterity = 12
-        self.db.intelligence = 15
+        self.db.strength = random.randint(10, 22)
+        self.db.dexterity = random.randint(10, 22)
+        self.db.intelligence = random.randint(10, 22)
     
     def get_stats(self):
         """
