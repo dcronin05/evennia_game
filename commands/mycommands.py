@@ -27,9 +27,16 @@ class Read(Command):
         output = ''
         
         for char in string:
-            prev_char = curr_char
-            curr_char = char
-            next_char = string[index + 1]
+            if index == 0:
+                prev_char = ''
+                curr_char = char
+            if index == len(string) - 1:
+                prev_char = curr_char
+                curr_char = char
+            else:
+                prev_char = curr_char
+                curr_char = char
+                next_char = string[index + 1]    
 
             if curr_char == '#' and next_char == ' ':
                 heading = True
