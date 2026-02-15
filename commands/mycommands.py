@@ -20,6 +20,7 @@ class Read(Command):
         for line in lines:
             if line == "":
                 del lines[index]
+                self.caller.msg('deleted a line')
             if line.startswith("# "):
                 lines[index] = f"|*|043{line[2:]}|n\n"
             index += 1
