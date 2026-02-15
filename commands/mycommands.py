@@ -30,7 +30,7 @@ class Read(Command):
             if index == 0:
                 prev_char = ''
                 curr_char = char
-            if index == len(string) - 1:
+            if index == len(string):
                 prev_char = curr_char
                 curr_char = char
             else:
