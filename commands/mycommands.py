@@ -31,7 +31,6 @@ class CmdHit(Command):
         
         target = self.caller.search(args)
         if not target:
-            self.caller.msg("No target found.")
             return
         self.caller.msg(f"You hit {target} in the face!")
         target.msg(f"{self.caller} hits you in the face!")
