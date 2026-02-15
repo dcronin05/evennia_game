@@ -21,6 +21,8 @@ class Room(ObjectParent, DefaultRoom):
     properties and methods available on all Objects.
     """
 
+    is_dark = False
+
     def at_object_creation(self):
         super().at_object_creation()
-        self.id.is_dark = False
+        self.is_dark = False
