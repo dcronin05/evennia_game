@@ -1,4 +1,6 @@
-class Monster:
+from evennia.objects.objects import DefaultObject
+
+class Monster(DefaultObject):
     key = "Monster"
 
     def at_init(self, name):
