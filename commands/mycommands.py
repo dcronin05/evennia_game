@@ -24,11 +24,11 @@ class Read(Command):
                 continue
 
             if line.startswith("# "):
-                lines[index] = f"|*|043{line[2:]}|n\n"
+                lines[index] = f"\n|*|043{line[2:]}|n\n"
             elif line.startswith("## "):
-                lines[index] = f"|043{line[3:]}|n\n"
+                lines[index] = f"\n|043{line[3:]}|n\n"
             elif line.startswith("### "):
-                lines[index] = f"|C{line[4:]}|n\n"
+                lines[index] = f"\n|C{line[4:]}|n\n"
 
             index += 1
         
