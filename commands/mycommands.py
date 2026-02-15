@@ -22,7 +22,7 @@ class Read(Command):
         index = 0
         for line in lines:
             if line == "":
-                continue
+                del lines[index]
             if line.startswith("# "):
                 lines[index] = f"|*|043{line[2:]}|n\n"
             index += 1
