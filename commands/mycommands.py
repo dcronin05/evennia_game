@@ -23,6 +23,7 @@ class Read(Command):
         for line in lines:
             if line.startswith("# "):
                 lines[index] = f"|*|043{line[2:]}|n"
+                print(True)
             index += 1
         
         output = "\n".join(lines)
