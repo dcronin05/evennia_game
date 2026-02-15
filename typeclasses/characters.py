@@ -45,3 +45,6 @@ class God(Character):
 
     def at_object_creation(self):
         super().at_object_creation()
+        self.db.strength = 30
+        self.db.dexterity = 30
+        self.db.intelligence = 30
