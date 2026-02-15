@@ -1,5 +1,6 @@
+from evennia.objects.objects import Object
 
-class Monster:
+class Monster(Object):
     """
     This is a base class for Monsters.
     """
