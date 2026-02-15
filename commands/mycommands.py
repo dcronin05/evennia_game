@@ -6,7 +6,7 @@ class CmdEcho(Command):
     key = 'echo'
 
     def func(self):
-        self.caller.msg(f"Echo: '{self.args}'")
+        self.caller.msg(f"Echo: '{self.args.strip()}'")
 
 
 class MyCmdSet(CmdSet):
