@@ -33,12 +33,13 @@ class Read(Command):
 
             if curr_char == '#' and next_char == ' ':
                 heading = True
-                string[index + 1] = ''
+                index += 1
+                curr_char = string[index]
                 output += "|*|043"
             elif char == '\n':
                 output += '|n\n'
             else:
-                output += char
+                output += curr_char
             
             index += 1
 
