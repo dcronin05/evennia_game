@@ -3,6 +3,27 @@ from evennia import CmdSet
 from evennia import default_cmds
 
 
+class Read(Command):
+    """
+    Read a document.
+
+    Usage:
+      read <document>
+    """
+
+    key = 'read'
+
+    def func(self):
+        if not self.args:
+            self.caller.msg("Read what?")
+            return
+        
+        document = self.caller.search(self.args)
+        if not document:
+            return
+
+        document.read()
+
 class MyCmdGet(default_cmds.CmdGet):
     
     def func(self):
@@ -70,3 +91,4 @@ class MyCmdSet(CmdSet):
         self.add(CmdEcho())
         self.add(CmdHit())
         self.add(MyCmdGet())
+        self.add(Read())
