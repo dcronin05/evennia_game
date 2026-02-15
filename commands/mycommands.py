@@ -21,8 +21,10 @@ class Read(Command):
         lines = string.split("\n")
         index = 0
         for line in lines:
+            if line == "":
+                continue
             if line.startswith("# "):
-                lines[index] = f"|*|043{line[2:]}|n\n\n"
+                lines[index] = f"|*|043{line[2:]}|n\n"
             index += 1
         
         output = "\n".join(lines)
