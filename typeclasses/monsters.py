@@ -4,9 +4,6 @@ class Monster(Object):
     """
     This is a base class for Monsters.
     """
- 
-    def __init__(self, key):
-        self.key = key 
 
     def move_around(self):
         print(f"{self.key} is moving!")
