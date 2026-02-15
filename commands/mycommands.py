@@ -3,6 +3,10 @@ from evennia import CmdSet
 
 
 class CmdEcho(Command):
+    """
+    Echo the arguments back to the caller.
+    """
+    
     key = 'echo'
 
     def func(self):
