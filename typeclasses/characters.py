@@ -23,19 +23,22 @@ class Character(ObjectParent, DefaultCharacter):
 
     """
 
-    pass
+    strength = 10
+    dexterity = 12
+    intelligence = 15
+    
+    def get_stats(self):
+        """
+        Returns the stats of the character.
+        """
+        return self.strength, self.dexterity, self.intelligence
+
 
 class God(Character):
     """
     God class
     """
 
-    strength = 10
-    dexterity = 12
-    intelligence = 15
-    wisdom = 14
-    charisma = 13
-
-    def get_stats(self):
-        return self.strength, self.dexterity, self.intelligence, self.wisdom, self.charisma
-    
+    def at_object_creation(self):
+        super().at_object_creation()
+        self.db.title = "God"    
