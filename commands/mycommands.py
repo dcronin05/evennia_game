@@ -18,16 +18,16 @@ class Read(Command):
     key = 'read'
 
     def parse_md(self, string):
+        
         index = 0
-        output = '|*'
+        output = ''
         for char in string:
             if char == '#':
-                output += "|043"
+                output += "|*|043"
             elif char == '\n':
                 output += '|n\n'
             else:
                 output += char
-        output += '\n\nOmnious |luhttps://mycoolsounds.com/chanting|ltchanting sounds|le are coming from beyond the door.'
 
         return output
                 
