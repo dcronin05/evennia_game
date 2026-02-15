@@ -15,15 +15,12 @@ class Read(Command):
 
     def parse_md(self, string):
         lines = string.split("\n")
-        self.caller.msg(lines)
         index = 0
         while index < len(lines):
             line = lines[index]
             self.caller.msg(f"index: {index}, line: {line}")
             if line == "":
                 del lines[index]
-                self.caller.msg('deleted a line')
-                self.caller.msg(lines)
                 continue
 
             if line.startswith("# "):
@@ -33,15 +30,11 @@ class Read(Command):
             elif line.startswith("### "):
                 lines[index] = f"|C{line[4:]}|n\n"
 
-            self.caller.msg(f"line: {lines[index]}")
             index += 1
         
         output = "\n".join(lines)
 
         return output
-                
-                
-
 
     def func(self):
         if not self.args:
@@ -53,6 +46,7 @@ class Read(Command):
             return
 
         self.caller.msg(self.parse_md(document.db.content))
+
 
 class MyCmdGet(default_cmds.CmdGet):
     
