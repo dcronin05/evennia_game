@@ -1,4 +1,4 @@
-new_doc = evennia.create_object("typeclasses.documents.Document")
+new_doc = create_object("typeclasses.documents.Document")
 
 new_doc.db.content = """
 # Discussion Assignment: Shortcuts
