@@ -6,11 +6,11 @@ home = evennia.search_object("closet")[0]
 new_doc = evennia.create_object("typeclasses.documents.Document", key="new doc", location=me, home=home)
 
 new_doc.db.content = """
-|RDiscussion Assignment: Shortcuts|n
+# Discussion Assignment: Shortcuts
 
 Pick an application you use a lot (examples: Google Docs, Google Sheets, Microsoft Word, Adobe Premiere, VS Code, etc.). Your goal is to find and test a keyboard shortcut that helps you work faster.
 
-|rSteps|n
+## Steps
 
 - |hChoose an application|H you use frequently.
 - Find a list of keyboard shortcuts for that application.
@@ -21,7 +21,7 @@ Pick an application you use a lot (examples: Google Docs, Google Sheets, Microso
     - No one else has already posted for that same application
 - Give it a test run (actually try it in the application).
 
-|mYour post|n
+## Your post
 
 - Application Name:
     - (What program did you try the shortcut in?)
@@ -32,7 +32,7 @@ Pick an application you use a lot (examples: Google Docs, Google Sheets, Microso
 - Will you keep using it? Why or why not?
     - (After testing it out, do you think this shortcut will become part of your routine? Explain your reasoning.)
 
-|yReplies / reactions|n
+## Replies / reactions
 
 Replies are semi-optional, but please put at least 2 thumbs up (or similar) under shortcuts you think are worthwhile so classmates can quickly find the ones that matter.
 """
