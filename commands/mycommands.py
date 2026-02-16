@@ -49,7 +49,7 @@ class Read(Command):
 
         text = self.parse_md(document.db.content)
         # self.caller.msg(self.parse_md(document.db.content))
-        evmore.msg(caller, text, always_page=False)
+        evmore.msg(self, text, always_page=False)
 
 
 class MyCmdGet(default_cmds.CmdGet):
