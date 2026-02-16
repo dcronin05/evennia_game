@@ -32,9 +32,9 @@ class Read(Command):
             elif line.startswith("### "):
                 lines[index] = f"\n|C{line[4:]}|n\n"
 
-            # while lines[index].find('**'):
-            #     lines[index].split('**')
-            #     "|H".join(lines[index])
+            while lines[index].find('**'):
+                lines[index].split('**')
+                "|H".join(lines[index])
 
             index += 1
         
