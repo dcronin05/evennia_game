@@ -10,7 +10,7 @@ new_doc.db.content = """
 Pick an application you use a lot (examples: Google Docs, Google Sheets, Microsoft Word, Adobe Premiere, VS Code, etc.). Your goal is to find and test a keyboard shortcut that helps you work faster.
 
 ## Steps
-- |hChoose an application|H you use frequently.
+- **Choose an application** you use frequently.
 - Find a list of keyboard shortcuts for that application.
     - Examples of what a shortcut looks like: Ctrl + C (copy), Ctrl + V (paste), Ctrl + Z (undo).
 - From that list, choose one shortcut that:
