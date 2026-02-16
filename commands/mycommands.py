@@ -33,7 +33,7 @@ class Read(Command):
                 lines[index] = f"\n|C{line[4:]}|n\n"
 
             while lines[index].find('**') != -1:
-                lines[index].split('**')
+                lines[index] = lines[index].split('**')
                 lines[index] = "|H".join(lines[index])
 
             index += 1
