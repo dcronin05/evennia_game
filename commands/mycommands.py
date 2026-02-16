@@ -34,7 +34,7 @@ class Read(Command):
 
             while lines[index].find('**') != -1:
                 lines[index] = lines[index].split('**')
-                lines[index] = "|H".join(lines[index])
+                lines[index] = "|h".join(lines[index])
 
             index += 1
         
