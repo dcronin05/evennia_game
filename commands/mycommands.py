@@ -47,7 +47,7 @@ class Read(Command):
         if not document:
             return
 
-        text = self.pars_md(document.db.content)
+        text = self.parse_md(document.db.content)
         # self.caller.msg(self.parse_md(document.db.content))
         evmore.msg(caller, text, always_page=False)
 
