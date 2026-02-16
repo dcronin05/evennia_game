@@ -56,8 +56,7 @@ HELP_ENTRY_DICTS = [
         """,
     },
     {
-        "key": "participation05"
-        "aliases": [],
+        "key": "participation05",
         "category": "CPSI",
         "text": """
             # Discussion Assignment: Shortcuts
