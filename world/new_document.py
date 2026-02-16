@@ -1,11 +1,11 @@
-import evennia
+# import evennia
 
-me = evennia.search_object("khaun")[0]
-home = evennia.search_object("closet")[0]
+# me = evennia.search_object("khaun")[0]
+# home = evennia.search_object("closet")[0]
 
-new_doc = evennia.create_object("typeclasses.documents.Document", key="new doc", location=me, home=home)
+# new_doc = evennia.create_object("typeclasses.documents.Document", key="new doc", location=me, home=home)
 
-content = """
+new_doc.db.content = """
 # Discussion Assignment: Shortcuts
 Pick an application you use a lot (examples: Google Docs, Google Sheets, Microsoft Word, Adobe Premiere, VS Code, etc.). Your goal is to find and test a keyboard shortcut that helps you work faster.
 
