@@ -59,9 +59,11 @@ HELP_ENTRY_DICTS = [
         "key": "participation05",
         "category": "CPSI",
         "text": """
-            # Discussion Assignment: Shortcuts
+            |h|043Discussion Assignment: Shortcuts|H|n
 
             Pick an application you use a lot (examples: Google Docs, Google Sheets, Microsoft Word, Adobe Premiere, VS Code, etc.). Your goal is to find and test a keyboard shortcut that helps you work faster.
+
+            # subtopics
 
             ## Steps
 
@@ -88,6 +90,6 @@ HELP_ENTRY_DICTS = [
             ## Replies / reactions
 
             Replies are semi-optional, but please put at least 2 thumbs up (or similar) under shortcuts you think are worthwhile so classmates can quickly find the ones that matter.
-            """,
+        """,
     }
 ]
