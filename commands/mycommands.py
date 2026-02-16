@@ -16,29 +16,29 @@ class Read(Command):
     key = 'read'
 
     def parse_md(self, string):
-        lines = string.split("\n")
-        index = 0
-        while index < len(lines):
-            line = lines[index]
+        # lines = string.split("\n")
+        # index = 0
+        # while index < len(lines):
+        #     line = lines[index]
 
-            if line == "":
-                del lines[index]
-                continue
+        #     if line == "":
+        #         del lines[index]
+        #         continue
 
-            if line.startswith("# "):
-                lines[index] = f"\n|*|043{line[2:]}|n\n"
-            elif line.startswith("## "):
-                lines[index] = f"\n|043{line[3:]}|n\n"
-            elif line.startswith("### "):
-                lines[index] = f"\n|C{line[4:]}|n\n"
+        #     if line.startswith("# "):
+        #         lines[index] = f"\n|*|043{line[2:]}|n\n"
+        #     elif line.startswith("## "):
+        #         lines[index] = f"\n|043{line[3:]}|n\n"
+        #     elif line.startswith("### "):
+        #         lines[index] = f"\n|C{line[4:]}|n\n"
 
-            while lines[index].find('**') != -1:
-                lines[index] = lines[index].split('**')
-                lines[index] = "|h".join(lines[index])
+        #     while lines[index].find('**') != -1:
+        #         lines[index] = lines[index].split('**')
+        #         lines[index] = "|h".join(lines[index])
 
-            index += 1
+        #     index += 1
         
-        output = "\n" + "\n".join(lines)
+        # output = "\n" + "\n".join(lines)
 
         return output
 
