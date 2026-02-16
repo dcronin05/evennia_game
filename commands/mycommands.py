@@ -1,6 +1,8 @@
 from commands.command import Command
 from evennia import CmdSet
 from evennia import default_cmds
+from evennia.utils import evmore
+
 
 
 class Read(Command):
@@ -45,7 +47,9 @@ class Read(Command):
         if not document:
             return
 
-        self.caller.msg(self.parse_md(document.db.content))
+        text = self.pars_md(document.db.content)
+        # self.caller.msg(self.parse_md(document.db.content))
+        evmore.msg(caller, text, always_page=False)
 
 
 class MyCmdGet(default_cmds.CmdGet):
