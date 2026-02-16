@@ -20,7 +20,9 @@ Pick an application you use a lot (examples: Google Docs, Google Sheets, Microso
     - You think would be useful
     - No one else has already posted for that same application
 - Give it a test run (actually try it in the application).
-## Your post
+
+|mYour post|n
+
 - Application Name:
     - (What program did you try the shortcut in?)
 - Keyboard Shortcut Discovered:
@@ -29,6 +31,8 @@ Pick an application you use a lot (examples: Google Docs, Google Sheets, Microso
     - (Briefly explain the function or action this shortcut performs.)
 - Will you keep using it? Why or why not?
     - (After testing it out, do you think this shortcut will become part of your routine? Explain your reasoning.)
-## Replies / reactions
+
+|yReplies / reactions|n
+
 Replies are semi-optional, but please put at least 2 thumbs up (or similar) under shortcuts you think are worthwhile so classmates can quickly find the ones that matter.
 """
