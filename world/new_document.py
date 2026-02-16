@@ -1,16 +1,16 @@
-# import evennia
+import evennia
 
-# me = evennia.search_object("khaun")[0]
-# home = evennia.search_object("closet")[0]
+me = evennia.search_object("khaun")[0]
+home = evennia.search_object("closet")[0]
 
-# new_doc = evennia.create_object("typeclasses.documents.Document", key="new doc", location=me, home=home)
+new_doc = evennia.create_object("typeclasses.documents.Document", key="new doc", location=me, home=home)
 
 content = """
 # Discussion Assignment: Shortcuts
 Pick an application you use a lot (examples: Google Docs, Google Sheets, Microsoft Word, Adobe Premiere, VS Code, etc.). Your goal is to find and test a keyboard shortcut that helps you work faster.
 
 ## Steps
-- Choose an application you use frequently.
+- |hChoose an application|H you use frequently.
 - Find a list of keyboard shortcuts for that application.
     - Examples of what a shortcut looks like: Ctrl + C (copy), Ctrl + V (paste), Ctrl + Z (undo).
 - From that list, choose one shortcut that:
