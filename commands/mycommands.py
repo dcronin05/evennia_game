@@ -40,7 +40,9 @@ class Read(Command):
         
         # output = "\n" + "\n".join(lines)
 
-        return output
+        # return output
+
+        return string
 
     def func(self):
         if not self.args:
