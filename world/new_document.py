@@ -1,6 +1,8 @@
 import evennia
 
-new_doc = evennia.create_object("typeclasses.documents.Document", key="new doc", location=khaun)
+me = evennia.search_object("khaun"[0])
+
+new_doc = evennia.create_object("typeclasses.documents.Document", key="new doc", location=me)
 
 new_doc.db.content = """
 # Discussion Assignment: Shortcuts
