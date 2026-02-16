@@ -1,9 +1,9 @@
-# import evennia
+import evennia
 
-# me = evennia.search_object("khaun")[0]
-# home = evennia.search_object("closet")[0]
+me = evennia.search_object("khaun")[0]
+home = evennia.search_object("closet")[0]
 
-# new_doc = evennia.create_object("typeclasses.documents.Document", key="new doc", location=me, home=home)
+new_doc = evennia.create_object("typeclasses.documents.Document", key="new doc", location=me, home=home)
 
 new_doc.db.content = """
 # Discussion Assignment: Shortcuts
